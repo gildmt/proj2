@@ -2,11 +2,8 @@
 
 
 Cliente::Cliente(ifstream & in){
-	in >> id; in.ignore();
-	getline(in, nome, ';');
-	//cartaoCliente =          //!!!!data falta implementar
-	in >> volCompras;
-
+	
+	// A IMPLEMENTAR
 }
 
 
@@ -23,12 +20,12 @@ float Cliente::getVolCompras() const{
 }
 
 void Cliente::save(ofstream & out) const{
-	
-	// A IMPLEMENTAR
+		// A IMPLEMENTAR
+
 }
 
 ostream& operator<<(ostream& out, const Cliente & cli){
-	out << cli.id << " ; " << cli.nome << " ; " << cli.cartaoCliente << " ; " << cli.volCompras;
+	// A IMPLEMENTAR
 }
 
 
